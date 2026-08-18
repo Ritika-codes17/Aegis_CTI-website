@@ -1,0 +1,35 @@
+# ==========================================
+# Aegis CTI Website - Project Dependencies
+# ==========================================
+
+# --- Web & Server Frameworks ---
+# Required for the interactive frontend dashboard
+streamlit
+# Required for backend API routing and server execution
+Flask
+# (Optional) Alternative high-performance backend server
+fastapi
+uvicorn
+
+# --- Data Manipulation & Analysis ---
+# Required for handling dataframes in historical and synthetic data scripts
+pandas
+# Required for numerical operations and array management
+numpy
+
+# --- Machine Learning Pipeline ---
+# Required for train_model.py, pipelines, and stubs
+scikit-learn
+
+# --- Natural Language Processing (NLP) ---
+# Required for nlp_processing.py to analyze threat intelligence text
+nltk
+spacy
+
+# --- Network & API Requests ---
+# Required for ingest_kev.py to fetch data from external vulnerability databases
+requests
+
+# --- Environment & Configuration ---
+# Helps manage environment variables and API keys securely
+python-dotenv
